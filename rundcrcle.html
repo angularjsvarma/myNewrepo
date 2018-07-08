@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .circle-container{
+            position:relative;
+            width:24em;
+            height:24em;
+            padding:2.8em;
+            border-radius:9%;
+            margin:1.7em auto 0;
+        }
+        .circle-container a{
+            display:block;
+            position:absolute;
+            top:50%;
+            left:50%;
+            width:4em;
+            height:3em;
+            margin:-2em;
+        }
+        .circle-container img{display:block;width:100px}
+        .deg0{transform:translate(12em);}
+        .deg45{transform:rotate(45deg)translate(12em)rotate(-45deg);}
+        .deg135{transform:rotate(135deg)translate(12em)rotate(-135deg);}
+        .deg180{transform:translate(-12em);}
+        .deg225{transform:rotate(225deg)translate(12em)rotate(-225deg);}
+        .deg315{transform:rotate(315deg)translate(12em)rotate(-315deg);}
+    </style>
+</head>
+<body>
+<div class="circle-container">
+    <a href="#"class="center"><img src="Images/bmw.jpg"></a>
+    <a href="#"class="deg0"><img src="Images/back.jpg"></a>
+    <a href="#"class="deg45"><img src="Images/leecooper.jpg"></a>
+    <a href="#"class="deg135"><img src="Images/iphone8.jpg"></a>
+    <a href="#"class="deg180"><img src="Images/tv.jpg"></a>
+    <a href="#"class="deg225"><img src="Images/favicon.ico"></a>
+    <a href="#"class="deg315"><img src="Images/bcgrndimg.gif"></a>
+</div>
+</body>
+</html>

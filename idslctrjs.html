@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #msg{
+            color:green;font-family:tahoma;font-size:30px;
+        }
+    </style>
+    <script>
+        function MyMsg()
+        {
+            document.getElementById("msg").innerText="Angularjs";
+        }
+    </script>
+</head>
+<body>
+<p>Click the button change the element value based on id</p>
+<div id="msg">angularjs2</div>
+<div id="msg">Angularjs5</div>
+<button onclick="MyMsg()">Click Msg</button>
+</body>
+</html>

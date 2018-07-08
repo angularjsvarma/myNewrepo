@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #mydiv {
+            width: 500px;
+            height: 400px;
+            background-color: lightblue;
+        }
+    </style>
+    <script>
+        function myFunction(){
+            var x=document.getElementById('mydiv');
+            if(x.style.display==='none'){
+                x.style.display='block';
+            }else{
+                x.style.display='none';
+            }
+        }
+    </script>
+</head>
+<body>
+<p>Please Click the below button</p>
+<button onclick="myFunction()">Click Me</button>
+<br><br>
+<div id="mydiv">This is my div Element</div>
+<p><b>Note:The Element will not take any space when the display property set to none</b></p>
+</body>
+</html>
